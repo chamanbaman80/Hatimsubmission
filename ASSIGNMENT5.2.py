@@ -1,5 +1,7 @@
-a=[1,2,3,4,5,6,7,8,9,10]
-print(a)
-(print(a[:5]))
-a.reverse()
-print(a)
+numbers = list(range(1, 11))  
+first_five = numbers[:5]  
+reversed_five = first_five[::-1]  
+
+print( numbers)
+print( first_five)
+print( reversed_five)
